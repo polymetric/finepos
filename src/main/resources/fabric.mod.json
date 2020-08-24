@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "mcah-fine-rotations",
+  "id": "finepos",
   "version": "${version}",
 
-  "name": "Fine Rotations",
+  "name": "FinePos",
   "description": "Allows you to use the arrow keys to move your camera rotation in increments of 0.15",
   "authors": [
     "polymetric"
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.nodium.mcmods.mcah_fine_rotations.FineRotations"
+      "net.nodium.mcmods.finepos.FinePos"
     ]
   },
   "mixins": [

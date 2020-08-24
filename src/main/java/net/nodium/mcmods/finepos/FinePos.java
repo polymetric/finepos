@@ -1,14 +1,13 @@
-package net.nodium.mcmods.mcah_fine_rotations;
+package net.nodium.mcmods.finepos;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.options.KeyBinding;
 import net.minecraft.client.util.InputUtil;
-import net.minecraft.text.LiteralText;
 import org.lwjgl.glfw.GLFW;
 
-public class FineRotations implements ModInitializer {
+public class FinePos implements ModInitializer {
 	private static KeyBinding kb_up;
 	private static KeyBinding kb_down;
 	private static KeyBinding kb_left;
@@ -17,28 +16,28 @@ public class FineRotations implements ModInitializer {
     @Override
     public void onInitialize() {
 		kb_up = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-				"key.mcah_fine_rotations.up",
+				"key.finepos.up",
 				InputUtil.Type.KEYSYM,
 				GLFW.GLFW_KEY_UP,
-				"category.mcah_fine_rotations.arrowkeys"
+				"category.finepos.arrowkeys"
 		));
 		kb_down = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-				"key.mcah_fine_rotations.down",
+				"key.finepos.down",
 				InputUtil.Type.KEYSYM,
 				GLFW.GLFW_KEY_DOWN,
-				"category.mcah_fine_rotations.arrowkeys"
+				"category.finepos.arrowkeys"
 		));
 		kb_left = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-				"key.mcah_fine_rotations.left",
+				"key.finepos.left",
 				InputUtil.Type.KEYSYM,
 				GLFW.GLFW_KEY_LEFT,
-				"category.mcah_fine_rotations.arrowkeys"
+				"category.finepos.arrowkeys"
 		));
 		kb_right = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-				"key.mcah_fine_rotations.right",
+				"key.finepos.right",
 				InputUtil.Type.KEYSYM,
 				GLFW.GLFW_KEY_RIGHT,
-				"category.mcah_fine_rotations.arrowkeys"
+				"category.finepos.arrowkeys"
 		));
 
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {

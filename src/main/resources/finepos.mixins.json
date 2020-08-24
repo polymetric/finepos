@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.nodium.mcmods.mcah_fine_rotations.mixin",
+  "package": "net.nodium.mcmods.finepos.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
