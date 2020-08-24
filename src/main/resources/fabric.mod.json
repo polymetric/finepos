@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mcah-fine-rotations",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fine Rotations",
+  "description": "Allows you to use the arrow keys to move your camera rotation in increments of 0.15",
   "authors": [
-    "Me!"
+    "polymetric"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://nodium.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
@@ -19,17 +19,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "FineRotations"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mcah-fine-rotations.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.15.x"
   },
   "suggests": {
     "flamingo": "*"
