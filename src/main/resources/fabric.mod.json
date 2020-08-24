@@ -19,11 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "FineRotations"
+      "net.nodium.mcmods.mcah_fine_rotations.FineRotations"
     ]
   },
   "mixins": [
-    "mcah-fine-rotations.mixins.json"
   ],
 
   "depends": {
