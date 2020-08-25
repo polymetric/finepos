@@ -1,9 +1,5 @@
-# Fabric Example Mod
+# FinePos
 
-## Setup
+Made for the Minecraft@Home project
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod allows you to rotate your player's viewpoint by single-pixel increments (one tap of an arrow key moves your head the exact same amount as moving your mouse exactly one pixel). This was designed primarily for reconstructing minecraft screenshots, but you may find it useful for something else!
